@@ -51,7 +51,7 @@ class ListaComida extends Component {
         if(typeof comida == 'undefined') 
           nuevaComida = "ComidaEnter";
         else
-          nuevaComida = comida;          
+          nuevaComida = comida;
       }
       
       var arr = this.state.listaComidas;
